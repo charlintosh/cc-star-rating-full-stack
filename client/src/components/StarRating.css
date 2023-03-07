@@ -1,0 +1,10 @@
+.StarRating {
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.StarRating .active {
+  color: yellow;
+}
+
+
