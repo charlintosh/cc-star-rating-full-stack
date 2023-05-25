@@ -1,22 +1,14 @@
 # FullStack Node + ReactJS Interview
 
-## Run the client
+## Front-end
+
+### Run the client
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ```bash
 cd ./client
+npm i
 npm run start
 ```
-
-## Run the server
-No configurations for the node server, just move to the directory.
-```bash
-cd server
-```
-You will create your own way to run your Node.js server, [don't forget to have Node.js installed](https://nodejs.org/en/).
-
-# Instructions
-
-### Front-end
 
 I. Create a Rating component. The Rating component consists of 5 stars. Each star is represented by a span element. The component should render to this HTML code:
 
@@ -48,7 +40,15 @@ Active starts must be color yellow, the rest must not.
 
 II. (Front-end or Full Stack only) If you acomplish the first step for this challenge, wait for the interviewer for more indications (in case time allows it).
 
-### Back-end
+## Back-end
+
+### Run the server
+No configurations for the node server, just move to the directory.
+```bash
+cd server
+```
+You will create your own way to run your Node.js server, [don't forget to have Node.js installed](https://nodejs.org/en/).
+
 
 I. Create a simple endpoint `/rates` that receives `{ rates: number }` as body. Using Node JS (you can use Vanilla Node or Express).
 
