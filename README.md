@@ -45,6 +45,7 @@ For example, after the third span element has been clicked, the HTML code should
 ```
 
 Active starts must be color yellow, the rest must not.
+
 II. (Front-end or Full Stack only) If you acomplish the first step for this challenge, wait for the interviewer for more indications (in case time allows it).
 
 ### Back-end
