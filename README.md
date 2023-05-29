@@ -3,11 +3,12 @@
 ## Front-end
 
 ### Run the client
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using [Vite](https://vitejs.dev/guide/).
+
 ```bash
 cd ./client
 npm i
-npm run start
+npm run dev
 ```
 
 I. Create a Rating component. The Rating component consists of 5 stars. Each star is represented by a span element. The component should render to this HTML code:
@@ -60,6 +61,6 @@ The text file should look like:
 2022-10-17T22:21:19.964Z -> 5
 ```
 
-III. After save the rate, the server must respond with 200 and a JSON: `{ status: 'I did it!' }`
+III. After save the rate, the server must respond with 200 and a JSON: `{ status: 'OK', rating: 4 }`
 
 IV. Connect the component you did on ReactJS with the Server, when the user click a rate, send a HTTP Request to the crated `/rates` endpoint.
